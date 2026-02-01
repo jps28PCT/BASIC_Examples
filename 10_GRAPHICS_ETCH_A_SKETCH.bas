@@ -5,9 +5,11 @@
 50 Y = 96
 60 PSET (X,Y,0)
 70 K$ = INKEY$
+
 80 IF K$ = CHR$(94) THEN Y=Y+1
 90 IF K$ = CHR$(10) THEN Y=Y-1
 100 IF K$ = CHR$(9) THEN X=X+1
 110 IF K$ = CHR$(8) THEN X=X-1
 
 120 GOTO 60
+
